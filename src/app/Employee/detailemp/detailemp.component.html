@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-primary" style="color: white; font-size: 20px;">Employee Details</div>
+                <div class="card-body">
+                    <div class="row">
+                    <div class="col-md-3">
+                        <h3 style="font-weight: bold;">Emp Name</h3>
+                        <hr>
+                        <p>{{data.name}}</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 style="font-weight: bold;">Emp Email</h3>
+                        <hr>
+                        <p>{{data.email}}</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 style="font-weight: bold">Emp Mobile NO</h3>
+                        <hr>
+                        <p>{{data.phone}}</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 style="font-weight: bold;">Emp Location</h3>
+                        <hr>
+                        <p>{{data.location}}</p>
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <hr>
+                        <button type="button" class="btn btn-primary"[routerLink]="['/alllist']" >AllEmployees</button>
+                    </div>
+                   
+                    </div>
+                    
+                           </div>
+            
+        </div>
+    </div>
+
